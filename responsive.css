@@ -1,0 +1,22 @@
+/* mobile */
+@media (max-width:740px) {
+    .nav li{
+        display: block;
+    }
+    .nav{
+        display: block;
+    }
+    #nut{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .nav li a:first-child{
+        display: block;
+    }
+}
+@media (min-width:1024px){
+    #nut{
+        display: none;
+    }
+}
