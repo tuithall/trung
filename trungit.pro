@@ -46,7 +46,7 @@ $labelActivateMSOffice = New-Object 'System.Window.Forms.Label'
 	$labelActivateMSOffice.Name = 'labelActivateMSOffice'
 	$labelActivateMSOffice.Size = '168, 27'
 	$labelActivateMSOffice.TabIndex = 10
-	$labelActivateMSOffice.Text = 'Activate MS Office'
+	$labelActivateMSOffice.Text = 'Activate trung MS Office'
 	$labelActivateMSOffice.UseCompatibleTextRendering = $True
 
 $labelBackupRestore = New-Object 'System.Window.Forms.Label'
