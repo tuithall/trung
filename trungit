@@ -539,9 +539,9 @@ $textActivateWindows = New-Object 'System.Window.Forms.Label'
 	$textActivateWindows.Size = '273, 78'
 	$textActivateWindows.TabIndex = 1
 	$textActivateWindows.Text = '> Following Version are supported
-   > Windows 8
-   > Windows 10
-   > Windows 11
+   > Windows 8 r
+   > Windows 10 r
+   > Windows 11 r
 '
 	$textActivateWindows.UseCompatibleTextRendering = $True
 
@@ -552,12 +552,12 @@ $textActivateMSOffice = New-Object 'System.Window.Forms.Label'
 	$textActivateMSOffice.Size = '334, 135'
 	$textActivateMSOffice.TabIndex = 1
 	$textActivateMSOffice.Text = '> Following Version are supported
-   > Microsoft Office 2010/2013
-   > Microsoft Office 2016
-   > Microsoft Office 2019
-   > Microsoft Office 365
-   > Microsoft Visio 2016/1019
-   > Microsoft Project 2016/2019
+   > Microsoft Office 2010/2013 r
+   > Microsoft Office 2016 r 
+   > Microsoft Office 2019r 
+   > Microsoft Office 365 r
+   > Microsoft Visio 2016/1019 r
+   > Microsoft Project 2016/2019 r
 '
 	$textActivateMSOffice.UseCompatibleTextRendering = $True
 
