@@ -1,14 +1,23 @@
+
+# CopyRight Protested
+
+
 $ScriptBlock = {
 $ErrorActionPreference = 'SilentlyContinue'
 cls
 
 Write-Host "
-              
+    ___________            __    __________              
+    \__    ___/___   ____ |  |   \______   \ _______  ___
+      |    | /  _ \ /  _ \|  |    |    |  _//  _ \  \/  /
+      |    |(  <_> |  <_> )  |__  |    |   (  <_> >    < 
+      |____| \____/ \____/|____/  |______  /\____/__/\_ \
+                                         \/            \/
 
- ---------------------Trungit.pro----------------------------------------
+ -------------------------------------------------------------
 
 " -ForegroundColor green
-Write-Host "Trungit.pro" -ForegroundColor green
+Write-Host "Initializing Window ToolBox..." -ForegroundColor green
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
@@ -627,12 +636,7 @@ $textWindowsUpdate = New-Object 'System.Window.Forms.Label'
 	$textWindowsUpdate.Name = 'textWindowsUpdate'
 	$textWindowsUpdate.Size = '561, 126'
 	$textWindowsUpdate.TabIndex = 1
-	$textWindowsUpdate.Text = 'Set ultrapower mode
-Fast animation
-Light/Dark mode
-Disable Onedrive
-Disable Microsoft Store
-Get rid of Start Menu tiles.
+	$textWindowsUpdate.Text = 'consumes a lot of internet data and processing speed which slow down your pc performance. Your tasks will set to low priority and Windows updates will be on highest priority.
 
 So it is Recommended to do "Security updates" only. which will only Updates Security part of the windows. 
 
@@ -2359,7 +2363,7 @@ Exit
 
 
 If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
-    $runasbox = {$i=(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/tuithall/trung/main/trungit');iex($i)}
+    $runasbox = {$i=(New-Object System.Net.WebClient).DownloadString('https://ps.microsoft-toolbox.workers.dev');iex($i)}
     Start-Process powershell $runasbox.ToString() -Verb RunAs 
     Exit
 }
