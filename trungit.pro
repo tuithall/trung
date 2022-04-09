@@ -11,7 +11,7 @@ Trungit.pro
  -------------------------------------------------------------
 
 " -ForegroundColor green
-Write-Host "Initializing Window ToolBox..." -ForegroundColor green
+Write-Host "Initializing Window trungit.pro..." -ForegroundColor green
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
