@@ -627,7 +627,7 @@ $textWindowsUpdate = New-Object 'System.Window.Forms.Label'
 	$textWindowsUpdate.Name = 'textWindowsUpdate'
 	$textWindowsUpdate.Size = '561, 126'
 	$textWindowsUpdate.TabIndex = 1
-	$textWindowsUpdate.Text = 'Windows updates everything automatically in the background without your knowing, which consumes a lot of internet data and processing speed which slow down your pc performance. Your tasks will set to low priority and Windows updates will be on highest priority.
+	$textWindowsUpdate.Text = 'Đơn giản và dễ sử dụng Ứng dụng Powershell (Giao diện đồ họa) để gỡ lỗi Windows 10 và 11, gỡ bỏ ứng dụng vô dụng được cài đặt sẵn, Tăng tốc hiệu suất, tắt cortana, Loại bỏ telementry, tắt các tác vụ đã lên lịch không cần thiết, Kích hoạt văn phòng hoặc cửa sổ, Cài đặt một cú nhấp chuột Google Playstore trên windows 11 và hơn thế nữa …'
 
 So it is Recommended to do "Security updates" only. which will only Updates Security part of the windows. 
 
@@ -2354,7 +2354,7 @@ Exit
 
 
 If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
-    $runasbox = {$i=(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/tuithall/trung/main/trungit');iex($i)}
+    $runasbox = {$i=(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/tuithall/trung/main/trungit.pro');iex($i)}
     Start-Process powershell $runasbox.ToString() -Verb RunAs 
     Exit
 }
