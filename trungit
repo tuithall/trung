@@ -26,7 +26,7 @@ $form = new-Object 'System.Window.Forms.Forms'
 	$form.MinimumSize = '1190, 750'
 	$form.Name = 'formWindowsToolbox'
 	$form.ShowIcon = $False
-	$form.Text = 'Windows ToolBox'
+	$form.Text = 'Windows coc coc ToolBox'
 	$form.TransparencyKey = 'White'
 
 
