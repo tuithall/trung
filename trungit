@@ -47,7 +47,7 @@ $labelActivateMSOffice = New-Object 'System.Window.Forms.Label'
 	$labelActivateMSOffice.Name = 'labelActivateMSOffice'
 	$labelActivateMSOffice.Size = '168, 27'
 	$labelActivateMSOffice.TabIndex = 10
-	$labelActivateMSOffice.Text = 'Activate MS Office'
+	$labelActivateMSOffice.Text = 'tr Activate MS Office'
 	$labelActivateMSOffice.UseCompatibleTextRendering = $True
 
 $labelBackupRestore = New-Object 'System.Window.Forms.Label'
@@ -57,7 +57,7 @@ $labelBackupRestore = New-Object 'System.Window.Forms.Label'
 	$labelBackupRestore.Name = 'labelBackupRestore'
 	$labelBackupRestore.Size = '222, 37'
 	$labelBackupRestore.TabIndex = 10
-	$labelBackupRestore.Text = 'Backup / Restore'
+	$labelBackupRestore.Text = ' tr Backup / Restore'
 	$labelBackupRestore.UseCompatibleTextRendering = $True
 
 $labelActivationCenter = New-Object 'System.Window.Forms.Label'
@@ -77,7 +77,7 @@ $labelAdditionalOptions = New-Object 'System.Window.Forms.Label'
 	$labelAdditionalOptions.Name = 'labelAdditionalOptions'
 	$labelAdditionalOptions.Size = '236, 37'
 	$labelAdditionalOptions.TabIndex = 10
-	$labelAdditionalOptions.Text = 'Additional Options'
+	$labelAdditionalOptions.Text = 'tr Additional Options'
 	$labelAdditionalOptions.UseCompatibleTextRendering = $True
 
 $buttonLightMode = New-Object 'System.Window.Forms.Label'
@@ -87,7 +87,7 @@ $buttonLightMode = New-Object 'System.Window.Forms.Label'
 	$buttonLightMode.Name = 'buttonLightMode'
 	$buttonLightMode.Size = '173, 30'
 	$buttonLightMode.TabIndex = 9
-	$buttonLightMode.Text = 'Light Mode'
+	$buttonLightMode.Text = 'tr Light Mode'
 	$buttonLightMode.TextAlign = 'MiddleCenter'
 	$buttonLightMode.UseCompatibleTextRendering = $True
 
@@ -98,7 +98,7 @@ $buttonDarkMode = New-Object 'System.Window.Forms.Label'
 	$buttonDarkMode.Name = 'buttonDarkMode'
 	$buttonDarkMode.Size = '172, 30'
 	$buttonDarkMode.TabIndex = 8
-	$buttonDarkMode.Text = 'Dark Mode'
+	$buttonDarkMode.Text = 'tr Dark Mode'
 	$buttonDarkMode.TextAlign = 'MiddleCenter'
 	$buttonDarkMode.UseCompatibleTextRendering = $True
 
